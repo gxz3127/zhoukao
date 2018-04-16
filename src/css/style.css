@@ -31,6 +31,35 @@ html, body, .wrap {
 header {
   height: .97rem;
   background: #C4493C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .3rem;
+  color: #fff;
+}
+
+header u {
+  color: #fff;
+}
+
+header b {
+  width: 70%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: .3rem;
+}
+
+header b input {
+  border: none;
+  outline: none;
+  width: 50%;
+}
+
+header b i {
+  color: #ccc;
+  margin-right: .1rem;
 }
 
 section {
@@ -45,4 +74,9 @@ section .swiper-container {
 section .swiper-container .swiper-slide img {
   width: 100%;
   display: inline-block;
+}
+
+footer {
+  height: .98rem;
+  background: #353434;
 }
