@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, u {
+  text-decoration: none;
+  color: #000;
+}
+
+i, em {
+  font-style: normal;
+}
+
+b {
+  font-weight: normal;
+}
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  font-size: .3rem;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: .97rem;
+  background: #C4493C;
+}
+
+section {
+  flex: 1;
+  overflow-y: auto;
+}
+
+section .swiper-container {
+  width: 100%;
+}
+
+section .swiper-container .swiper-slide img {
+  width: 100%;
+  display: inline-block;
+}
